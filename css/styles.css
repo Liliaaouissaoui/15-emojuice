@@ -2,6 +2,72 @@ html {
 background-color: #57bb6b;
 }
 
+.titlePresentation {
+  font-size: 30px;
+  margin: 0px 0px 10px 0px;
+}
+
+.SubtitlePresentation {
+  font-size: 20px;
+  margin: 0px 0px 10px 0px;
+}
+
+img {
+  width: 70px;
+  vertical-align: baseline;
+}
+
+.container {
+  height: 240px;
+  width: 320px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  position: relative;
+}
+
+.container div {
+  color: white;
+}
+
+
+
+.column {
+  position: absolute;
+  bottom: 41px;
+}
+
+.column * {
+  padding: 0px 78px 0px 00px;
+}
+
+body{
+  margin: 8px 0px;
+  text-align: center;
+  background-color: green;
+}
+
+.presentation {
+
+  padding: 90px 40px;
+  background-color: white;
+
+}
+
+h2{
+  font-size: 26px;
+  font-style: bold;
+}
+
+.fontRubrique2{
+  font-size: 16px;
+}
+
+.imagefruit{
+  height: 50px;
+}
 
 .button-container {
   display: flex;
