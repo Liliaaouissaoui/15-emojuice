@@ -12,9 +12,32 @@ body {
   margin: 8px 0px;
 }
 
+nav div {
+  margin: 33px ;
+  margin-bottom: 50px;
+}
+
+nav div a {
+  padding: 14px 17px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-family: var(--Maven) ;
+}
+
 .titlePresentation {
   font-size: 30px;
   margin: 0px 0px 10px 0px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.title {
+  font-size: 26px;
+  font-family: var(--Maven);
+  font-style: bold;
+  margin: 95px 96px 31px 95px;
 }
 
 .subtitle {
@@ -75,6 +98,10 @@ img {
   padding: 31px 67px 38px 67px;
 }
 
+.home-light img {
+  width: 210px;
+}
+
 .fruitboard {
   margin-bottom: 44px;
   height: 240px;
@@ -109,14 +136,22 @@ img {
   position: relative;
 }
 
-.Product .container  {
+.container-kiwi {
+  color: white;
+  text-align: left;
+  font-family: var(--Quattrocento);
+  font-size: 16px;
+  padding: 62px 87px 55px 68px;
+}
+
+.Product .container-2  {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.container div {
+.container-2 div {
   color: white;
 }
 
@@ -206,7 +241,7 @@ h2{
 
 }
 
-.Product .container  {
+.Product .container-2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
