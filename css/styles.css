@@ -7,14 +7,31 @@ background-color: #57bb6b;
   margin: 0px 0px 10px 0px;
 }
 
-.SubtitlePresentation {
+.subtitle {
   font-size: 20px;
   margin: 0px 0px 10px 0px;
+}
+
+.banane {
+  background-color: #FFF8D7 ;
+}
+.kiwi {
+  background-color: var(--green-light);
+}
+.café {
+  background-color: #D3C6B2;
+}
+.fraise {
+  background-color: #F7A4B4;
 }
 
 img {
   width: 70px;
   vertical-align: baseline;
+}
+
+.fruitboard img {
+  width: 75px;
 }
 
 .container {
@@ -32,11 +49,20 @@ img {
   color: white;
 }
 
-
-
 .column {
   position: absolute;
   bottom: 41px;
+}
+
+.product {
+  margin: 40px 30px;
+}
+
+.titleProducts {
+  color: white;
+  font-size: 26px;
+  font-family: var(--Maven);
+  margin-bottom: 35px;
 }
 
 .column * {
@@ -50,10 +76,8 @@ body{
 }
 
 .presentation {
-
   padding: 90px 40px;
   background-color: white;
-
 }
 
 h2{
