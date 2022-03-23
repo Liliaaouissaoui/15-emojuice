@@ -1,5 +1,15 @@
-html {
-background-color: #57bb6b;
+:root {
+  --green : #57BB6B ;
+  --Maven : 'Maven Pro', sans-serif;
+  --Quattrocento: 'Quattrocento', serif;
+  --Sriracha : 'Sriracha', cursive;
+  --green-light : #C4F2AD;
+}
+
+body {
+  text-align: center;
+  background-color: var(--green) ;
+  margin: 8px 0px;
 }
 
 .titlePresentation {
@@ -9,8 +19,46 @@ background-color: #57bb6b;
 
 .subtitle {
   font-size: 20px;
-  margin: 0px 0px 10px 0px;
+  font-family: var(--Quattrocento);
+  color: var(--green);
+  margin: 15px 74px 33px 83px;
 }
+
+.fruitPage {
+  font-size: 14px;
+  font-family: var(--Maven);
+  font-style: bold;
+  padding-top: 100px;
+  padding-right: 143px;
+}
+
+.home-light {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.76) ;
+  padding: 36px 0px ;
+}
+
+.home {
+  background-image: url("../img/plan_de_travail_avec_fruit.png");
+  background-size: cover;
+  height: 380px;
+  padding: 28px;
+}
+
+.fruitTitle {
+  font-family: var(--Sriracha);
+  font-size: 30px;
+}
+
+.fruitsubtitle {
+  font-family: var(--Quattrocento);
+  font-size: 16px;
+  opacity: 50%;
+  text-align: left;
+  margin: 0px;
+}
+
+
 
 .banane {
   background-color: #FFF8D7 ;
@@ -26,12 +74,24 @@ background-color: #57bb6b;
 }
 
 img {
-  width: 70px;
-  vertical-align: baseline;
+  padding: 31px 67px 38px 67px;
+}
+
+.fruitboard {
+  margin-bottom: 44px;
+  height: 240px;
+  padding: 35px 40px;
+  border-radius: 25px;
+  text-align: left;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.568) ;
 }
 
 .fruitboard img {
   width: 75px;
+}
+
+.logo {
+  width: auto;
 }
 
 .container {
@@ -43,6 +103,13 @@ img {
   margin-right: auto;
   padding: 30px;
   position: relative;
+}
+
+.Product .container  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 .container div {
@@ -67,12 +134,6 @@ img {
 
 .column * {
   padding: 0px 78px 0px 00px;
-}
-
-body{
-  margin: 8px 0px;
-  text-align: center;
-  background-color: green;
 }
 
 .presentation {
@@ -118,4 +179,10 @@ h2{
 .button-light {
   background: white;
 }
+
+
+
+
+
+
 
