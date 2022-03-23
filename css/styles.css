@@ -58,8 +58,6 @@ body {
   margin: 0px;
 }
 
-
-
 .banane {
   background-color: #FFF8D7 ;
 }
@@ -92,6 +90,12 @@ img {
 
 .logo {
   width: auto;
+}
+.source {
+  font-family:var(--Maven) ;
+  font-size: 12px;
+  color:var(--green) ;
+  margin: 74px 121px 112px 121px;
 }
 
 .container {
@@ -180,9 +184,34 @@ h2{
   background: white;
 }
 
+.fruitline {
+  width: 30px;
+  padding: 0px 15px;
+  margin: 0px 0px 46px 0px;
+}
 
+.footer {
+  background-color: white;
+} 
 
+.footer .title {
+  padding: 43px 93px 35px 100px;
+}
 
+.contact {
+  text-align: center;
+  padding: 55px;
+  color:var(--green) ;
+  font-family:var(--Maven) ;
 
+}
+
+.Product .container  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+
+}
 
 
