@@ -6,10 +6,16 @@
   --green-light : #C4F2AD;
 }
 
+html {
+  background-color: var(--green) ;
+}
+
 body {
   text-align: center;
-  background-color: var(--green) ;
   margin: 8px 0px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 380px;
 }
 
 nav div {
@@ -46,13 +52,22 @@ h1 {
   color: var(--green);
   margin: 15px 74px 33px 83px;
 }
-
+/*
 .fruitPage {
   font-size: 14px;
   font-family: var(--Maven);
   font-style: bold;
   padding-top: 100px;
   padding-right: 143px;
+}
+*/
+
+.bottom-product {
+  margin-top: 100px;
+}
+
+.bottom-product img {
+  padding-left: 60px;
 }
 
 .home-light {
@@ -86,15 +101,20 @@ h1 {
 .kiwi {
   background-color: var(--green-light);
 }
-.café {
+.cofee {
   background-color: #D3C6B2;
 }
 .fraise {
   background-color: #F7A4B4;
 }
 
-img {
-  padding: 31px 67px 38px 67px;
+.img-fruit{
+  margin-top: 30px;
+}
+
+.img-fruit img {
+  height: 30px;
+  margin: 15px;
 }
 
 .home-light img {
@@ -111,7 +131,7 @@ img {
 }
 
 .fruitboard img {
-  width: 75px;
+  width: 84px;
 }
 
 .logo {
@@ -151,7 +171,7 @@ img {
 }
 
 .container-2 div {
-  color: white;
+  margin: 30px 0px;
 }
 
 .column {
@@ -159,8 +179,8 @@ img {
   bottom: 41px;
 }
 
-.product {
-  margin: 40px 30px;
+.Product {
+  padding: 40px 30px;
 }
 
 .titleProducts {
@@ -186,10 +206,6 @@ h2{
 
 .fontRubrique2{
   font-size: 16px;
-}
-
-.imagefruit{
-  height: 50px;
 }
 
 .button-container {
