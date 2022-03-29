@@ -64,7 +64,6 @@ h1 {
 .home {
   background-image: url("../img/plan_de_travail_avec_fruit.png");
   background-size: cover;
-  height: 380px;
   padding: 28px;
 }
 
@@ -197,26 +196,36 @@ h2{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 35px 0px 45px 0px;
 }
 
 .button {
-  background: #57bb6b;
-  color: #fff;
   padding: 10px 15px;
   border-radius: 10px;
   margin-bottom: 5px;
   text-decoration: none;
   transition: all 0.2s ease;
   font-family: maven pro;
+  margin: 9px 0px;
 }
 
 .button:hover {
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
-  background: #278b3b;
+}
+
+.button-principal {
+  background-color: var(--green);
+  color: white;
+}
+
+.button-principal:hover {
+  background-color: #278b3b;
+  color: white;
 }
 
 .button-light {
   background: white;
+  color: var(--green);
 }
 
 .fruitline {
