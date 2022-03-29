@@ -30,27 +30,17 @@ nav div a {
   font-family: var(--Maven) ;
 }
 
-.titlePresentation {
-  font-size: 30px;
-  margin: 0px 0px 10px 0px;
-}
-
 h1 {
   margin: 0px;
 }
 
-.title {
+h2{
   font-size: 26px;
-  font-family: var(--Maven);
   font-style: bold;
-  margin: 95px 96px 31px 95px;
 }
 
-.subtitle {
-  font-size: 20px;
-  font-family: var(--Quattrocento);
-  color: var(--green);
-  margin: 15px 74px 33px 83px;
+ul {
+  padding-left: 12px;
 }
 /*
 .fruitPage {
@@ -61,13 +51,51 @@ h1 {
   padding-right: 143px;
 }
 */
-
-.bottom-product {
-  margin-top: 100px;
+.container {
+  height: 240px;
+  width: 320px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  position: relative;
 }
 
-.bottom-product img {
-  padding-left: 60px;
+.container-sirop-kiwi {
+  background-color: #C4F2AD;
+  padding: 50px 0px;
+}
+
+.container-kiwi img {
+  width: 100%;
+}
+
+.container-other-product {
+  display: flex;
+}
+
+.container-kiwi {
+  color: white;
+  text-align: left;
+  font-family: var(--Quattrocento);
+  font-size: 16px;
+  padding: 62px 87px 55px 68px;
+}
+
+.container-2 div {
+  margin: 30px 0px;
+}
+
+.Product {
+  padding: 40px 30px;
+}
+
+.Product .container-2  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 .home-light {
@@ -80,28 +108,6 @@ h1 {
   background-image: url("../img/plan_de_travail_avec_fruit.png");
   background-size: cover;
   padding: 28px;
-}
-
-.fruitTitle {
-  font-family: var(--Sriracha);
-  font-size: 30px;
-}
-
-.title-sirop-kiwi {
-  font-size: 30px;
-}
-
-.container-sirop-kiwi {
-  background-color: #C4F2AD;
-  padding: 50px 0px;
-}
-
-.fruitsubtitle {
-  font-family: var(--Quattrocento);
-  font-size: 16px;
-  opacity: 50%;
-  text-align: left;
-  margin: 0px;
 }
 
 .banane {
@@ -117,21 +123,58 @@ h1 {
   background-color: #F7A4B4;
 }
 
-.img-fruit{
-  margin-top: 30px;
+.titlePresentation {
+  font-size: 30px;
+  margin: 0px 0px 10px 0px;
 }
 
-.img-rond {
-  background-color: white;
-  border-radius: 50%;
-  padding: 50px;
-  width: 112px;
-  margin-right: auto;
-  margin-left: auto;
+.title {
+  font-size: 26px;
+  font-family: var(--Maven);
+  font-style: bold;
+  margin: 95px 96px 31px 95px;
 }
 
-.img-rond img {
-  height: 100px;
+.title-kiwi {
+  font-size: 26px;
+  font-family: var(--Maven);
+  font-style: bold;
+}
+
+.title-sirop-kiwi {
+  font-size: 30px;
+}
+
+.fruitTitle {
+  font-family: var(--Sriracha);
+  font-size: 30px;
+}
+
+.fruit-other-title { 
+  font-size: 17px;
+  font-family: var(--Sriracha);
+}
+
+.titleProducts {
+  color: white;
+  font-size: 26px;
+  font-family: var(--Maven);
+  margin-bottom: 35px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-family: var(--Quattrocento);
+  color: var(--green);
+  margin: 15px 74px 33px 83px;
+}
+
+.fruitsubtitle {
+  font-family: var(--Quattrocento);
+  font-size: 16px;
+  opacity: 50%;
+  text-align: left;
+  margin: 0px;
 }
 
 .kiwisubtitle {
@@ -142,13 +185,33 @@ h1 {
   padding: 5px 0px;
 }
 
-.img-fruit img {
-  height: 30px;
-  margin: 15px;
+.text-kiwi {
+  margin: 45px 0px;
+  font-family: var(--Quattrocento);
+  font-size: 18px;
 }
 
-.home-light img {
-  width: 210px;
+.value-nutri {
+  margin: 35px 0px;
+}
+
+.fontRubrique2{
+  font-size: 16px;
+}
+
+.source {
+  font-family:var(--Maven) ;
+  font-size: 14px;
+  color:var(--green) ;
+  margin: 69px 80px 112px 80px;
+}
+
+.bottom-product {
+  margin-top: 100px;
+}
+
+.bottom-product img {
+  padding-left: 60px;
 }
 
 .fruitboard {
@@ -160,89 +223,81 @@ h1 {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.568) ;
 }
 
+.fruitboard-small {
+  margin: 30px 5px 44px 5px;
+  height: 132px;
+  padding: 15px;
+  border-radius: 25px;
+  text-align: left;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.568);
+  width: 150px;
+}
+
 .fruitboard img {
   width: 84px;
+}
+
+.img-rond {
+  background-color: white;
+  border-radius: 50%;
+  padding: 50px;
+  width: 112px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.home-light img {
+  width: 210px;
+}
+
+.other-product {
+  background-color: #C4F2AD;
+  padding: 50px 30px;
+}
+
+.item-other-product {
+  margin-top: 20px;
+}
+
+.item-other-product-2 {
+  margin-top: 47px;
+}
+
+.img-fruit{
+  margin-top: 30px;
+}
+
+.img-rond img {
+  height: 100px;
+}
+
+.img-other-product {
+  width: 50px!important;
+}
+
+.img-fruit img {
+  height: 30px;
+  margin: 15px;
+}
+
+.img-other-product-plus {
+  width: 30px;
+  margin-right: 28px;
 }
 
 .logo {
   width: auto;
 }
-.source {
-  font-family:var(--Maven) ;
-  font-size: 12px;
-  color:var(--green) ;
-  margin: 74px 121px 112px 121px;
-}
-
-.container {
-  height: 240px;
-  width: 320px;
-  background-color: rgb(0, 0, 0);
-  border-radius: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 30px;
-  position: relative;
-}
-
-.container-kiwi {
-  color: white;
-  text-align: left;
-  font-family: var(--Quattrocento);
-  font-size: 16px;
-  padding: 62px 87px 55px 68px;
-}
-
-.Product .container-2  {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-end;
-}
-
-.container-2 div {
-  margin: 30px 0px;
-}
 
 .column {
+  padding: 0px 78px 0px 00px;
   position: absolute;
   bottom: 41px;
-}
-
-.Product {
-  padding: 40px 30px;
-}
-
-.titleProducts {
-  color: white;
-  font-size: 26px;
-  font-family: var(--Maven);
-  margin-bottom: 35px;
-}
-
-.column * {
-  padding: 0px 78px 0px 00px;
 }
 
 .presentation {
   padding: 90px 40px;
   background-color: white;
-}
-
-h2{
-  font-size: 26px;
-  font-style: bold;
-}
-
-.fontRubrique2{
-  font-size: 16px;
-}
-
-.button-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 35px 0px 45px 0px;
 }
 
 .button {
@@ -253,6 +308,13 @@ h2{
   transition: all 0.2s ease;
   font-family: maven pro;
   margin: 9px 0px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35px 0px 45px 0px;
 }
 
 .button:hover {
@@ -293,15 +355,4 @@ h2{
   padding: 55px;
   color:var(--green) ;
   font-family:var(--Maven) ;
-
 }
-
-.Product .container-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-end;
-
-}
-
-
