@@ -143,6 +143,7 @@ ul {
 
 .title-sirop-kiwi {
   font-size: 30px;
+  font-family: var(--Sriracha);
 }
 
 .fruitTitle {
@@ -181,7 +182,8 @@ ul {
   font-family: var(--Quattrocento);
   font-size: 16px;
   opacity: 50%;
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 30px;
   padding: 5px 0px;
 }
 
@@ -240,7 +242,7 @@ ul {
 .img-rond {
   background-color: white;
   border-radius: 50%;
-  padding: 50px;
+  padding: 30px;
   width: 112px;
   margin-right: auto;
   margin-left: auto;
@@ -355,4 +357,5 @@ ul {
   padding: 55px;
   color:var(--green) ;
   font-family:var(--Maven) ;
+  font-style: bold;
 }
